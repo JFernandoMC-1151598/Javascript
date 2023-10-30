@@ -13,7 +13,7 @@ button[type="button"]
     border-radius: 5px;
     cursor: pointer;
 }
-.container{
+body{
     max-width: 900px;
     margin: 0 auto;
     margin-top: 40px;
@@ -23,7 +23,7 @@ button[type="button"]
     border-radius: 5px;
     align-items: center;
 }
-.tabla{
+table{
     text-align: center;
     width: 100%;
     margin: 2px;
