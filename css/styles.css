@@ -27,6 +27,7 @@ table{
     text-align: center;
     width: 100%;
     margin: 2px;
+    border-collapse: collapse;
 }
 
 input[type="text"]
@@ -37,4 +38,19 @@ input[type="text"]
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+td{
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px;
+}
+tr:hover{
+    background-color: rgb(82, 82, 237);
 }
