@@ -1,7 +1,18 @@
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 header{
     text-align: center;
     padding-top: 20px;
     font-style: italic;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
 }
 button[type="submit"],
 button[type="button"]
@@ -13,24 +24,12 @@ button[type="button"]
     border-radius: 5px;
     cursor: pointer;
 }
-body{
-    max-width: 900px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 35px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    align-items: center;
-}
 table{
     text-align: center;
     width: 100%;
     margin: 2px;
 }
-
-input[type="text"]
-{
+input[type="text"]{
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
