@@ -3,8 +3,7 @@ header{
     padding-top: 20px;
     font-style: italic;
 }
-button[type="submit"],
-button[type="button"]
+button
 {
     background-color: #f84c4c;
     color: #ffffff;

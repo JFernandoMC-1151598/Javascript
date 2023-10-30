@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <script src="js/json.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <script src="js/json.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+  <header>
+    <h1>Listar Productos</h1>
+  </header>
 
-    <header>
-        <h1>Listar Productos</h1>
-    </header>
-     
-<a href="registrar_producto.html"><button class="nuevo_producto" type="submit">Nuevo</button></a>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripcion</th>
+            <th>Visualizar</th>
+          </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+      </table>
 
+  <a href="registrar_producto.html"><button class="nuevo_producto" type="submit">Nuevo</button></a>
 
-    <footer>Jose Fernando Moncada Claro - 1151598 <br> Luis Eduardo Soto García - 1151860</footer>
 </body>
 </html>
