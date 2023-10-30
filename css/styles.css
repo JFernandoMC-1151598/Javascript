@@ -1,3 +1,18 @@
+header{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+button[type="submit"],
+button[type="button"]
+{
+    background-color: #f84c4c;
+    color: #ffffff;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -8,22 +23,18 @@
     border-radius: 5px;
     align-items: center;
 }
-header{
-    text-align: center;
-    padding-top: 20px;
-    font-style: italic;
-}
-button[type="submit"]
-{
-    background-color: #f84c4c;
-    color: #ffffff;
-    padding: 4px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 .tabla{
     text-align: center;
     width: 100%;
     margin: 2px;
+}
+
+input[type="text"]
+{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
