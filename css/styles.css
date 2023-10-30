@@ -29,7 +29,12 @@ table{
     margin: 2px;
     border-collapse: collapse;
 }
-
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+}
 input[type="text"]
 {
     box-sizing: border-box;
