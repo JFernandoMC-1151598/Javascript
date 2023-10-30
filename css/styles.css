@@ -3,8 +3,6 @@ body{
     margin: 0 auto;
     margin-top: 40px;
 }
-    
-
 header{
     text-align: center;
     padding-top: 20px;
@@ -26,15 +24,12 @@ button[type="button"]
     border-radius: 5px;
     cursor: pointer;
 }
-
 table{
     text-align: center;
     width: 100%;
     margin: 2px;
 }
-
-input[type="text"]
-{
+input[type="text"]{
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
