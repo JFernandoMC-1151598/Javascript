@@ -1,6 +1,9 @@
 body{
-    background-color: #a2a2a2;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
+    
 
 header{
     text-align: center;
@@ -23,17 +26,8 @@ button[type="button"]
     border-radius: 5px;
     cursor: pointer;
 }
-.container{
-    max-width: 900px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 35px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    align-items: center;
-}
-.tabla{
+
+table{
     text-align: center;
     width: 100%;
     margin: 2px;
