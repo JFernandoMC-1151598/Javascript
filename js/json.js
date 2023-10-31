@@ -13,6 +13,20 @@ let url = 'https://siaweb-nodejs.carlos-reneren7.repl.co/productos'
       }
       document.getElementById('data').innerHTML = body
     }
+
+async function postProductos(url, data){
+  const response = await fetch(url,{
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+  if (response.status === 200) {
+    return response.json();
+  }else{
+    throw new Error("La solicitud no se pudo procesar...")
+  }
+}
+
+const data = await postProductos('https://siaweb-nodejs.carlos-reneren7.repl.co/productos')
 /*
 get /productos: obtengo la relacion de productos
 get /productos/nombre_producto: obtengo producto por nombre
